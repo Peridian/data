@@ -1,4 +1,4 @@
-print('----- Electro Lux Data execution initialized -----')
+print('----- Data execution initialized -----')
 
 from facebookads import adobjects
 from facebookads.api import FacebookSession
@@ -152,7 +152,7 @@ def main():
             extract(config)
         )
     )
-    print('----- Electro Lux Data execution finished successfully -----')
+    print('----- Data execution finished successfully -----')
 
 
 if __name__ == '__main__':
